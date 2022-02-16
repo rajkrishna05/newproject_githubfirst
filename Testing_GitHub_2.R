@@ -1,0 +1,20 @@
+#---
+#title: "Testing_GitHub"
+#author: "Rajkrishna"
+#date: '2022-02-16'
+#output: github_document
+#---
+
+#+r setup, include=FALSE
+#knitr::opts_chunk$set(echo = TRUE)
+
+
+
+#+r
+a <- 1
+b <- 3
+
+c <- a+b
+print(c)
+
+
